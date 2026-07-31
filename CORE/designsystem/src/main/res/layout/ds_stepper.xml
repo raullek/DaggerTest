@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Степпер ДС: горизонтальный ряд точек (добавляются в рантайме через dsRenderStepperDots). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ds_stepper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="@dimen/ds_space_m"
+    android:paddingBottom="@dimen/ds_space_m" />

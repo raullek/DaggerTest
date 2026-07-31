@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+
+        <!--
+          Единственная точка входа диплинков.
+          Невидимая (Translucent.NoTitleBar), singleTask + noHistory — диспетчер,
+          который сразу закрывается. Манифест мерджится в :app.
+        -->
+        <activity
+            android:name=".view.DeeplinkActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+            <!-- Внутренняя схема: app-app://az.less.daggertest/<path> -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="app-app" android:host="az.less.daggertest" />
+            </intent-filter>
+
+            <!-- Внешняя схема для тестов: daggertest://<path> -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="daggertest" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

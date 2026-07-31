@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Информационный баннер ДС. Корень = TextView (id ds_banner). -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ds_banner"
+    style="@style/DsBanner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ds_space_m"
+    android:background="@drawable/ds_banner_info_bg"
+    android:textColor="@color/ds_primary" />

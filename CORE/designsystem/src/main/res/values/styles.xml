@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Стили компонентов дизайн-системы. Имена без точек: точка в имени стиля в Android
+     означает неявного родителя, которого здесь нет (ломает AAPT-линковку). -->
+<resources>
+
+    <style name="DsLabel">
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/ds_space_s</item>
+    </style>
+
+    <style name="DsError">
+        <item name="android:textColor">@color/ds_error</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">@dimen/ds_space_s</item>
+    </style>
+
+    <style name="DsSectionTitle">
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DsSectionSubtitle">
+        <item name="android:textColor">@color/ds_hint</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="DsTextInput">
+        <item name="android:background">@drawable/ds_field_bg</item>
+        <item name="android:padding">@dimen/ds_space_m</item>
+        <item name="android:minHeight">@dimen/ds_field_height</item>
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textColorHint">@color/ds_hint</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DsButtonPrimary">
+        <item name="android:background">@drawable/ds_button_bg</item>
+        <item name="android:textColor">@color/ds_on_primary</item>
+        <item name="android:minHeight">@dimen/ds_field_height</item>
+        <item name="android:paddingLeft">@dimen/ds_space_l</item>
+        <item name="android:paddingRight">@dimen/ds_space_l</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DsButtonSecondary">
+        <item name="android:background">@drawable/ds_button_secondary_bg</item>
+        <item name="android:textColor">@color/ds_primary</item>
+        <item name="android:minHeight">@dimen/ds_field_height</item>
+        <item name="android:paddingLeft">@dimen/ds_space_l</item>
+        <item name="android:paddingRight">@dimen/ds_space_l</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DsCard">
+        <item name="android:background">@drawable/ds_card_bg</item>
+        <item name="android:padding">@dimen/ds_space_l</item>
+    </style>
+
+    <style name="DsAmountInput">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textColorHint">@color/ds_hint</item>
+        <item name="android:textSize">@dimen/ds_amount_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DsBanner">
+        <item name="android:padding">@dimen/ds_space_l</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DsSummaryLabel">
+        <item name="android:textColor">@color/ds_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DsSummaryValue">
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="DsSwitchText">
+        <item name="android:textColor">@color/ds_on_surface</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

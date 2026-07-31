@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Точка степпера (активная). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/ds_primary" />
+    <size android:width="@dimen/ds_dot" android:height="@dimen/ds_dot" />
+</shape>

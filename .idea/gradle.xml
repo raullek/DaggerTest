@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CORE/deeplink-api" />
+            <option value="$PROJECT_DIR$/CORE/deeplink-impl" />
+            <option value="$PROJECT_DIR$/CORE/designsystem" />
+            <option value="$PROJECT_DIR$/CORE/di" />
+            <option value="$PROJECT_DIR$/CORE/network-api" />
+            <option value="$PROJECT_DIR$/CORE/network-impl" />
+            <option value="$PROJECT_DIR$/CORE/workflow-api" />
+            <option value="$PROJECT_DIR$/CORE/workflow-compose-api" />
+            <option value="$PROJECT_DIR$/CORE/workflow-compose-impl" />
+            <option value="$PROJECT_DIR$/CORE/workflow-impl" />
+            <option value="$PROJECT_DIR$/FEATURE/catalog-api" />
+            <option value="$PROJECT_DIR$/FEATURE/catalog-impl" />
+            <option value="$PROJECT_DIR$/FEATURE/profile-api" />
+            <option value="$PROJECT_DIR$/FEATURE/profile-impl" />
+            <option value="$PROJECT_DIR$/FEATURE/settings-api" />
+            <option value="$PROJECT_DIR$/FEATURE/settings-impl" />
+            <option value="$PROJECT_DIR$/FEATURE/transfer-api" />
+            <option value="$PROJECT_DIR$/FEATURE/transfer-impl" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/entry" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

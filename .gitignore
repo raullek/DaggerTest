@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/vcs.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Vendored reference app — never commit
+sbol_android_app/
+
+# Generated analysis output
+graphify-out/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Scratch compilation leftovers
+scratch/**/*.jar

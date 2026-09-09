@@ -28,3 +28,9 @@ graphify-out/
 
 # Scratch compilation leftovers
 scratch/**/*.jar
+
+# IDE plugin local data
+/.idea/firebender/
+
+# Claude Code local state
+.claude/scheduled_tasks.lock
